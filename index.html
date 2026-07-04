@@ -250,13 +250,7 @@
     border-radius: 29.4%;
     text-align: center;
     width: 12.5em;
-    height: 11.5em;
-
-    background: linear-gradient(
-        135deg,
-        #006DFF 0%,
-        #00B8FF 100%
-    );
+    height: 11.5em;    
         }
         .section-2 .icon-block img[data-v-1804ae44] {
             display: inline-block;
@@ -421,7 +415,13 @@
         .justify-between { justify-content: space-between }
         .justify-evenly { justify-content: space-evenly }
         .space-y-none>:not([hidden])~:not([hidden]) { --un-space-y-reverse: 0; margin-top: calc(0rem * calc(1 - var(--un-space-y-reverse))); margin-bottom: calc(0rem * var(--un-space-y-reverse)) }
-        .bg-primary-500 { --un-bg-opacity: 1; background-color: rgba(0,176,236,var(--un-bg-opacity)) }
+        .bg-primary-500 { 
+    background: linear-gradient(
+        135deg,
+        #006DFF 0%,
+        #00B8FF 100%
+    );
+}
         .bg-secondary-500 { --un-bg-opacity: 1; background-color: rgba(0,38,75,var(--un-bg-opacity)) }
         .bg-white { --un-bg-opacity: 1; background-color: rgba(255,255,255,var(--un-bg-opacity)) }
         .p-5 { padding: 1.25rem }

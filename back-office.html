@@ -626,8 +626,20 @@
       word-break: keep-all
     }
 
-    @media (min-width:768px) {
-      .section-2 .title[data-v-18de9ca2] { display: block; font-size: 1.125rem; line-height: 1.75rem }
+   @media (min-width:768px) {
+  .section-2[data-v-18de9ca2] {
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+  }
+
+  .section-2 .title[data-v-18de9ca2] {
+    display: block;
+    width: 100%;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-align: center;
+  }
     }
 
     @media (min-width:1024px) {
@@ -914,14 +926,11 @@
         </div>
 
         <!-- Section 2 -->
-        <div class="py-11 bg-secondary-500 c-white md:py-4 section-2" data-v-18de9ca2="">
-  <div class="px-5 text-center default-container" data-v-18de9ca2="">
+       <div class="py-11 bg-secondary-500 c-white md:py-4 section-2" data-v-18de9ca2="">
+  <div class="px-5 text-center md:px-25 lg:px-15 default-container" data-v-18de9ca2="">
     <div class="title" data-v-18de9ca2="">
       <span class="inline-block" data-v-18de9ca2="">
-        언제 어디서나, 누구나 쉽게.
-      </span>
-      <span class="inline-block" data-v-18de9ca2="">
-        반복 업무는 자동화하고 비즈니스는 한눈에.
+        언제 어디서나&nbsp;&nbsp;·&nbsp;&nbsp;누구나 쉽게&nbsp;&nbsp;·&nbsp;&nbsp;반복 업무는 자동화하고&nbsp;&nbsp;·&nbsp;&nbsp;비즈니스는 한눈에
       </span>
     </div>
   </div>

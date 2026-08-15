@@ -78,7 +78,17 @@
     .footer-record[data-v-7321c33a] { color: #5b6e81; max-width: 900px; margin: 0 auto; padding: 24px 0; line-height: 2 }
     .footer-record>div[data-v-7321c33a] { flex: 50%; width: 50%; white-space: nowrap }
 
-    .contact-btn[data-v-2f346f36] { width: 150px; height: 50px; line-height: 50px; font-size: 16px }
+   .contact-btn[data-v-2f346f36] {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    background: linear-gradient(
+        135deg,
+        #006DFF 0%,
+        #00B8FF 100%
+    ) !important;
+}
     .navigation-area[data-v-2f346f36] { color: #152038; font-size: 20px }
     .navigation-area a[data-v-2f346f36]:hover { --un-text-opacity: 1; color: rgba(0, 176, 236, var(--un-text-opacity)) }
     .visible-btn[data-v-2f346f36] { font-family: inherit; line-height: 1.3; font-size: 3em; color: #2e2d33; font-weight: 400 }
@@ -248,9 +258,34 @@
     .inquiry-checkbox-area[data-v-03f1afd1] { font-size: .875rem; line-height: 1.25rem; letter-spacing: -.4px; line-height: 20px }
     @media (min-width:768px) { .inquiry-checkbox-area[data-v-03f1afd1] { font-size: 1rem; line-height: 1.5rem } }
     .inquiry-checkbox-area .inquiry-checkbox[data-v-03f1afd1] { margin-right: 14px; width: 20px; height: 20px; background-color: #e2e9f2 !important; outline: 0; border-radius: 3px }
-    .inquiry-btn[data-v-03f1afd1] { width: 70%; height: 58px; border-radius: .75rem; font-size: .875rem; line-height: 1.25rem; line-height: 1; max-width: 300px; font-weight: 400 }
-    @media (min-width:768px) { .inquiry-btn[data-v-03f1afd1] { height: 70px; border-radius: 1.5rem; font-size: 1rem; line-height: 1.5rem } }
-    .inquiry-btn[data-v-03f1afd1]:hover { opacity: .75 }
+    .inquiry-btn[data-v-03f1afd1] {
+    width: 70%;
+    height: 58px;
+    border-radius: .75rem;
+    font-size: .875rem;
+    line-height: 1;
+    max-width: 300px;
+    font-weight: 400;
+
+    background: linear-gradient(
+        135deg,
+        #006DFF 0%,
+        #00B8FF 100%
+    ) !important;
+}
+
+@media (min-width:768px) {
+    .inquiry-btn[data-v-03f1afd1] {
+        height: 70px;
+        border-radius: 1.5rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+.inquiry-btn[data-v-03f1afd1]:hover {
+    opacity: .75;
+}
 
     .support-cs[data-v-7a924d26] { 
     box-sizing: border-box;

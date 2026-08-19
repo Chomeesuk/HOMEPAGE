@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -807,7 +807,7 @@
   <link rel="modulepreload" crossorigin="" href="/assets/Faq.b39d198d.js">
   <link rel="preload" href="/assets/Faq.809c5712.css" as="style">
 
-  <title>쉐어밸류</title>
+ <title>Share Value | Back Office</title>
 
   <!-- Third party scripts -->
   <script type="text/javascript" async="true" src="https://cdn.channel.io/plugin/ch-plugin-web.js" charset="UTF-8"></script>
@@ -852,45 +852,100 @@
             </a>
           </div>
           <div class="hidden md:inline-block navigation-area" data-v-2f346f36="">
-            <nav data-v-2f346f36="">
-              <a href="/engine" class="decoration-none mx-4" data-v-2f346f36=""><span data-v-2f346f36="">부킹엔진</span></a>
-              <a aria-current="page" href="/back-office" class="router-link-active router-link-exact-active decoration-none mx-4 c-primary-500" data-v-2f346f36=""><span data-v-2f346f36="">백오피스</span></a>
-              <a href="/support" class="decoration-none mx-4" data-v-2f346f36=""><span data-v-2f346f36="">고객센터</span></a>
-            </nav>
-          </div>
-          <div data-v-2f346f36="">
-            <button type="button" class="hidden md:inline-block bg-primary-500 c-white btn contact-btn" data-v-2f346f36="">서비스 문의</button>
-            <button type="button" class="inline-block md:hidden visible-btn" data-v-2f346f36="">≡</button>
-          </div>
+  <nav data-v-2f346f36="">
+    
+    <a href="./engine.html"
+       class="decoration-none mx-4"
+       data-v-2f346f36="">
+      <span data-v-2f346f36="">Booking Engine</span>
+    </a>
+
+    <a aria-current="page"
+       href="./back-office.html"
+       class="router-link-active router-link-exact-active decoration-none mx-4 c-primary-500"
+       data-v-2f346f36="">
+      <span data-v-2f346f36="">Back Office</span>
+    </a>
+
+    <a href="./support.html"
+       class="decoration-none mx-4"
+       data-v-2f346f36="">
+      <span data-v-2f346f36="">Support</span>
+    </a>
+
+  </nav>
+</div>
+
+<div data-v-2f346f36="">
+  <button type="button"
+          class="hidden md:inline-block bg-primary-500 c-white btn contact-btn"
+          data-v-2f346f36="">Contact Us</button>
+
+  <button type="button"
+          class="inline-block md:hidden visible-btn"
+          data-v-2f346f36="">≡</button>
+</div>
         </div>
 
         <!-- Mobile Menu Modal -->
         <div style="display:none" class="inline-block md:hidden text-left shadow-lg bg-white menu-modal" data-v-2f346f36="">
-          <div class="navigation-area" data-v-2f346f36="">
-            <nav class="flex flex-col" data-v-2f346f36="">
-              <a href="/engine" class="decoration-none px-7.5" data-v-2f346f36="">
-                <div class="flex flex-row items-center h-full" data-v-2f346f36="">
-                  <img src="/image/icon/ico_black_engine.webp" width="25" height="30" alt="icon" class="mr-3" data-v-2f346f36="">
-                  <span data-v-2f346f36="">부킹엔진</span>
-                </div>
-              </a>
-              <a aria-current="page" href="/back-office" class="router-link-active router-link-exact-active decoration-none px-7.5 c-primary-500 font-bold" data-v-2f346f36="">
-                <div class="flex flex-row items-center h-full" data-v-2f346f36="">
-                  <img src="/image/icon/ico_black_back-office.webp" width="25" height="30" alt="icon" class="mr-3" data-v-2f346f36="">
-                  <span data-v-2f346f36="">백오피스</span>
-                </div>
-              </a>
-              <a href="/support" class="decoration-none px-7.5" data-v-2f346f36="">
-                <div class="flex flex-row items-center h-full" data-v-2f346f36="">
-                  <img src="/image/icon/ico_black_support.webp" width="25" height="30" alt="icon" class="mr-3" data-v-2f346f36="">
-                  <span data-v-2f346f36="">고객센터</span>
-                </div>
-              </a>
-            </nav>
-          </div>
-          <div class="flex flex-col menu-modal-btn-area" data-v-2f346f36="">
-            <button type="button" class="bg-primary-500 c-white h-60px" data-v-2f346f36="">서비스 문의</button>
-          </div>
+  <div class="navigation-area" data-v-2f346f36="">
+    <nav class="flex flex-col" data-v-2f346f36="">
+
+      <!-- Booking Engine -->
+      <a href="./engine.html"
+         class="decoration-none px-7.5"
+         data-v-2f346f36="">
+        <div class="flex flex-row items-center h-full" data-v-2f346f36="">
+          <img src="../image/icon/ico_black_engine.webp"
+               width="25"
+               height="30"
+               alt="icon"
+               class="mr-3"
+               data-v-2f346f36="">
+          <span data-v-2f346f36="">Booking Engine</span>
+        </div>
+      </a>
+
+      <!-- Back Office : Current Page -->
+      <a aria-current="page"
+         href="./back-office.html"
+         class="router-link-active router-link-exact-active decoration-none px-7.5 c-primary-500 font-bold"
+         data-v-2f346f36="">
+        <div class="flex flex-row items-center h-full" data-v-2f346f36="">
+          <img src="../image/icon/ico_black_back-office.webp"
+               width="25"
+               height="30"
+               alt="icon"
+               class="mr-3"
+               data-v-2f346f36="">
+          <span data-v-2f346f36="">Back Office</span>
+        </div>
+      </a>
+
+      <!-- Support -->
+      <a href="./support.html"
+         class="decoration-none px-7.5"
+         data-v-2f346f36="">
+        <div class="flex flex-row items-center h-full" data-v-2f346f36="">
+          <img src="../image/icon/ico_black_support.webp"
+               width="25"
+               height="30"
+               alt="icon"
+               class="mr-3"
+               data-v-2f346f36="">
+          <span data-v-2f346f36="">Support</span>
+        </div>
+      </a>
+
+    </nav>
+  </div>
+
+  <div class="flex flex-col menu-modal-btn-area" data-v-2f346f36="">
+    <button type="button"
+            class="bg-primary-500 c-white h-60px"
+            data-v-2f346f36="">Contact Us</button>
+  </div>
         </div>
       </header>
 
@@ -898,17 +953,19 @@
       <div class="pt-16.5 md:pt-22.5">
         <!-- Section 1 (Desktop) -->
         <div class="section-1 use-full-bg-image hidden md:block" data-v-18de9ca2="">
-          <div class="px-5 default-container" data-v-18de9ca2="">
-            <div class="title" data-v-18de9ca2="">
-              <div data-v-18de9ca2="">여행 비즈니스</div>
-              <div data-v-18de9ca2="">운영을 하나로</div>
-             </div>
-             <div class="description" data-v-18de9ca2="">
+  <div class="px-5 default-container" data-v-18de9ca2="">
+
+    <div class="title" data-v-18de9ca2="">
+      <div data-v-18de9ca2="">One Platform for</div>
+      <div data-v-18de9ca2="">Travel Operations</div>
+    </div>
+
+    <div class="description" data-v-18de9ca2="">
       <div data-v-18de9ca2="">
-        예약부터 고객, 상품, 공급사, 결제와 정산까지
+        Bookings · Customers · Products · Suppliers · Payments · Settlement
       </div>
       <div data-v-18de9ca2="">
-        여행사의 복잡한 운영 업무를 하나의 플랫폼에서 관리합니다.
+        Manage your entire travel operation in one platform.
       </div>
             </div>
           </div>
@@ -919,14 +976,14 @@
   <div class="px-5 default-container" data-v-18de9ca2="">
 
     <div class="title" data-v-18de9ca2="">
-      <div data-v-18de9ca2="">여행 비즈니스</div>
-      <div data-v-18de9ca2="">운영을 하나로</div>
+      <div data-v-18de9ca2="">One Platform for</div>
+      <div data-v-18de9ca2="">Travel Operations</div>
     </div>
 
     <div class="description" data-v-18de9ca2="">
-  <div data-v-18de9ca2="">예약부터 고객, 상품, 공급사, 결제와 정산까지</div>
-  <div data-v-18de9ca2="">여행사의 복잡한 운영 업무를 하나의 플랫폼에서 관리합니다.</div>
-            </div>
+      <div data-v-18de9ca2="">Bookings · Customers · Products · Suppliers</div>
+      <div data-v-18de9ca2="">Payments · Settlement</div>
+    </div>
           </div>
         </div>
 
@@ -935,33 +992,116 @@
   <div class="px-5 text-center md:px-25 lg:px-15 default-container" data-v-18de9ca2="">
     <div class="title" data-v-18de9ca2="">
       <span class="inline-block" data-v-18de9ca2="">
-        언제 어디서나&nbsp;&nbsp;·&nbsp;&nbsp;누구나 쉽게&nbsp;&nbsp;·&nbsp;&nbsp;반복 업무는 자동으로&nbsp;&nbsp;·&nbsp;&nbsp;비즈니스는 한눈에
+        Anytime, Anywhere&nbsp;&nbsp;·&nbsp;&nbsp;Easy for Everyone&nbsp;&nbsp;·&nbsp;&nbsp;Automate Repetitive Tasks&nbsp;&nbsp;·&nbsp;&nbsp;See Your Business at a Glance
       </span>
     </div>
   </div>
 </div>
 
         <!-- Product Specs Section -->
-        <div class="bg-white py-16.5 md:px-10 lg:px-5 lg:py-37.5" data-v-18de9ca2="">
-          <div class="default-container back-office-spec-list" data-v-18de9ca2="">
+       <div class="bg-white py-16.5 md:px-10 lg:px-5 lg:py-37.5" data-v-18de9ca2="">
+  <div class="default-container back-office-spec-list" data-v-18de9ca2="">
             
-            <div class="product-spec" data-v-18de9ca2="" data-v-7ab3d27c="">
+    <div class="product-spec" data-v-18de9ca2="" data-v-7ab3d27c="">
+      <div class="product-spec-icon-area text-center flex justify-center" data-v-7ab3d27c="">
+        <div class="product-spec-icon inline-block flex justify-center items-center" data-v-7ab3d27c="">
+          <img src="../image/icon/ico_ops_customer.webp" alt="icon" data-v-7ab3d27c="">
+        </div>
+      </div>
+
+      <div class="product-spec-title text-center" data-v-7ab3d27c="">
+        Customer &amp; Member Management
+      </div>
+
+      <div class="product-spec-list" data-v-7ab3d27c="">
+        <ul data-v-7ab3d27c="">
+          <li data-v-18de9ca2="">Customer &amp; Client Management</li>
+          <li data-v-18de9ca2="">Individual &amp; Corporate Members</li>
+          <li data-v-18de9ca2="">Member Login Integration</li>
+          <li data-v-18de9ca2="">Customer Search</li>
+        </ul>
+      </div>
+</div>
+
+           <div class="product-spec" data-v-18de9ca2="" data-v-7ab3d27c="">
   <div class="product-spec-icon-area text-center flex justify-center" data-v-7ab3d27c="">
     <div class="product-spec-icon inline-block flex justify-center items-center" data-v-7ab3d27c="">
-      <img src="./image/icon/ico_ops_customer.webp" alt="아이콘" data-v-7ab3d27c="">
+      <img src="../image/icon/ico_ops_booking.webp" alt="icon" data-v-7ab3d27c="">
     </div>
   </div>
 
   <div class="product-spec-title text-center" data-v-7ab3d27c="">
-    고객 · 회원 관리
+    Booking &amp; Sales Management
   </div>
 
   <div class="product-spec-list" data-v-7ab3d27c="">
     <ul data-v-7ab3d27c="">
-      <li data-v-18de9ca2="">고객 · 거래처 통합 관리</li>
-      <li data-v-18de9ca2="">개인 · 기업회원 관리</li>
-      <li data-v-18de9ca2="">회원 로그인 연동</li>
-      <li data-v-18de9ca2="">고객 통합검색</li>
+      <li data-v-18de9ca2="">Booking · Changes · Cancellations · Refunds</li>
+      <li data-v-18de9ca2="">Booking &amp; Sales Management</li>
+      <li data-v-18de9ca2="">Customer Requests &amp; Tasks</li>
+      <li data-v-18de9ca2="">Booking Details &amp; History</li>
+    </ul>
+  </div>
+</div>
+            <div class="product-spec" data-v-18de9ca2="" data-v-7ab3d27c="">
+  <div class="product-spec-icon-area text-center flex justify-center" data-v-7ab3d27c="">
+    <div class="product-spec-icon inline-block flex justify-center items-center" data-v-7ab3d27c="">
+      <img src="../image/icon/ico_ops_inventory.webp" alt="icon" data-v-7ab3d27c="">
+    </div>
+  </div>
+
+  <div class="product-spec-title text-center" data-v-7ab3d27c="">
+    Travel Products &amp; Inventory
+  </div>
+
+  <div class="product-spec-list" data-v-7ab3d27c="">
+    <ul data-v-7ab3d27c="">
+      <li data-v-18de9ca2="">Golf · Hotels · Tours</li>
+      <li data-v-18de9ca2="">Inventory · Suppliers · Bookings</li>
+      <li data-v-18de9ca2="">Tailor-Made Travel Products</li>
+      <li data-v-18de9ca2="">Itineraries &amp; Invoices</li>
+    </ul>
+  </div>
+</div>
+
+          <div class="product-spec" data-v-18de9ca2="" data-v-7ab3d27c="">
+  <div class="product-spec-icon-area text-center flex justify-center" data-v-7ab3d27c="">
+    <div class="product-spec-icon inline-block flex justify-center items-center" data-v-7ab3d27c="">
+      <img src="../image/icon/ico_ops_ticketing.webp" alt="icon" data-v-7ab3d27c="">
+    </div>
+  </div>
+
+  <div class="product-spec-title text-center" data-v-7ab3d27c="">
+    Flight Booking &amp; Automated Ticketing
+  </div>
+
+  <div class="product-spec-list" data-v-7ab3d27c="">
+    <ul data-v-7ab3d27c="">
+      <li data-v-18de9ca2="">Real-Time Flights &amp; PNR Management</li>
+      <li data-v-18de9ca2="">Automated Ticketing</li>
+      <li data-v-18de9ca2="">VOID &amp; Refund Management</li>
+      <li data-v-18de9ca2="">TASF &amp; Fee Settings</li>
+    </ul>
+  </div>
+</div>
+
+            <div class="product-spec" data-v-18de9ca2="" data-v-7ab3d27c="">
+  <div class="product-spec-icon-area text-center flex justify-center" data-v-7ab3d27c="">
+    <div class="product-spec-icon inline-block flex justify-center items-center" data-v-7ab3d27c="">
+      <img src="../image/icon/ico_ops_group_air.webp" alt="icon" data-v-7ab3d27c="">
+    </div>
+  </div>
+
+  <div class="product-spec-title text-center" data-v-7ab3d27c="">
+    Group &amp; Charter Flights
+  </div>
+
+  <div class="product-spec-list" data-v-7ab3d27c="">
+    <ul data-v-7ab3d27c="">
+      <li data-v-18de9ca2="">Flight Schedules &amp; Inventory</li>
+      <li data-v-18de9ca2="">Client Blocks &amp; Sales</li>
+      <li data-v-18de9ca2="">Fares · Rules · Fees</li>
+      <li data-v-18de9ca2="">Passengers &amp; Sales Settlement</li>
     </ul>
   </div>
 </div>
@@ -969,40 +1109,40 @@
            <div class="product-spec" data-v-18de9ca2="" data-v-7ab3d27c="">
   <div class="product-spec-icon-area text-center flex justify-center" data-v-7ab3d27c="">
     <div class="product-spec-icon inline-block flex justify-center items-center" data-v-7ab3d27c="">
-      <img src="./image/icon/ico_ops_booking.webp" alt="아이콘" data-v-7ab3d27c="">
+      <img src="../image/icon/ico_ops_bsp.webp" alt="icon" data-v-7ab3d27c="">
     </div>
   </div>
 
   <div class="product-spec-title text-center" data-v-7ab3d27c="">
-    예약 · 판매 관리
+    BSP &amp; Settlement Management
   </div>
 
   <div class="product-spec-list" data-v-7ab3d27c="">
     <ul data-v-7ab3d27c="">
-      <li data-v-18de9ca2="">예약 · 변경 · 취소 · 환불</li>
-      <li data-v-18de9ca2="">예약 · 판매 통합 관리</li>
-      <li data-v-18de9ca2="">고객 요청 · 업무 관리</li>
-      <li data-v-18de9ca2="">예약 상세 · 업무 이력</li>
+      <li data-v-18de9ca2="">Ticketing &amp; Refund DSR</li>
+      <li data-v-18de9ca2="">BSP Billing &amp; Documents</li>
+      <li data-v-18de9ca2="">ADM &amp; ACM Management</li>
+      <li data-v-18de9ca2="">Ticketing &amp; Refund Statistics</li>
     </ul>
   </div>
 </div>
             <div class="product-spec" data-v-18de9ca2="" data-v-7ab3d27c="">
   <div class="product-spec-icon-area text-center flex justify-center" data-v-7ab3d27c="">
     <div class="product-spec-icon inline-block flex justify-center items-center" data-v-7ab3d27c="">
-      <img src="./image/icon/ico_ops_inventory.webp" alt="아이콘" data-v-7ab3d27c="">
+      <img src="../image/icon/ico_ops_payment.webp" alt="icon" data-v-7ab3d27c="">
     </div>
   </div>
 
   <div class="product-spec-title text-center" data-v-7ab3d27c="">
-    여행상품 · 인벤토리
+    Payment &amp; Cash Management
   </div>
 
   <div class="product-spec-list" data-v-7ab3d27c="">
     <ul data-v-7ab3d27c="">
-      <li data-v-18de9ca2="">골프 · 숙박 · 투어 상품</li>
-      <li data-v-18de9ca2="">재고 · 공급사 · 예약 관리</li>
-      <li data-v-18de9ca2="">맞춤형 여행상품 구성</li>
-      <li data-v-18de9ca2="">일정표 · 인보이스 생성</li>
+      <li data-v-18de9ca2="">Card · Cash · Point Payments</li>
+      <li data-v-18de9ca2="">Payment Gateway Integration</li>
+      <li data-v-18de9ca2="">Payments · Cancellations · Refunds</li>
+      <li data-v-18de9ca2="">Receipts · Payments · Receivables</li>
     </ul>
   </div>
 </div>
@@ -1010,106 +1150,23 @@
            <div class="product-spec" data-v-18de9ca2="" data-v-7ab3d27c="">
   <div class="product-spec-icon-area text-center flex justify-center" data-v-7ab3d27c="">
     <div class="product-spec-icon inline-block flex justify-center items-center" data-v-7ab3d27c="">
-      <img src="./image/icon/ico_ops_ticketing.webp" alt="아이콘" data-v-7ab3d27c="">
+      <img src="../image/icon/ico_ops_system.webp"
+           alt="icon"
+           data-v-7ab3d27c="">
     </div>
   </div>
 
   <div class="product-spec-title text-center" data-v-7ab3d27c="">
-    항공 예약 · 자동발권
+    Operations &amp; System Integration
   </div>
 
   <div class="product-spec-list" data-v-7ab3d27c="">
     <ul data-v-7ab3d27c="">
-      <li data-v-18de9ca2="">실시간 항공 · PNR 관리</li>
-      <li data-v-18de9ca2="">항공권 자동발권 </li>
-      <li data-v-18de9ca2="">VOID · 환불 관리</li>
-      <li data-v-18de9ca2="">TASF · 수수료 설정</li>
-    </ul>
-  </div>
-</div>
-
-            <div class="product-spec" data-v-18de9ca2="" data-v-7ab3d27c="">
-  <div class="product-spec-icon-area text-center flex justify-center" data-v-7ab3d27c="">
-    <div class="product-spec-icon inline-block flex justify-center items-center" data-v-7ab3d27c="">
-      <img src="./image/icon/ico_ops_group_air.webp" alt="아이콘" data-v-7ab3d27c="">
-    </div>
-  </div>
-
-  <div class="product-spec-title text-center" data-v-7ab3d27c="">
-    단체 · 전세기 항공
-  </div>
-
-  <div class="product-spec-list" data-v-7ab3d27c="">
-    <ul data-v-7ab3d27c="">
-      <li data-v-18de9ca2="">항공 스케줄 · 인벤토리 관리</li>
-      <li data-v-18de9ca2="">거래처별 블록 · 판매 관리</li>
-      <li data-v-18de9ca2="">운임 · 규정 · 수수료 설정</li>
-      <li data-v-18de9ca2="">탑승자 · 판매 정산 관리</li>
-    </ul>
-  </div>
-</div>
-
-           <div class="product-spec" data-v-18de9ca2="" data-v-7ab3d27c="">
-  <div class="product-spec-icon-area text-center flex justify-center" data-v-7ab3d27c="">
-    <div class="product-spec-icon inline-block flex justify-center items-center" data-v-7ab3d27c="">
-      <img src="./image/icon/ico_ops_bsp.webp" alt="아이콘" data-v-7ab3d27c="">
-    </div>
-  </div>
-
-  <div class="product-spec-title text-center" data-v-7ab3d27c="">
-    항공 BSP · 정산 관리
-  </div>
-
-  <div class="product-spec-list" data-v-7ab3d27c="">
-    <ul data-v-7ab3d27c="">
-      <li data-v-18de9ca2="">발권 · 환불 DSR 관리</li>
-      <li data-v-18de9ca2="">BSP 빌링 · 증빙 관리</li>
-      <li data-v-18de9ca2="">ADM · ACM 관리</li>
-      <li data-v-18de9ca2="">발권 · 환불 통계</li>
-    </ul>
-  </div>
-</div>
-            <div class="product-spec" data-v-18de9ca2="" data-v-7ab3d27c="">
-  <div class="product-spec-icon-area text-center flex justify-center" data-v-7ab3d27c="">
-    <div class="product-spec-icon inline-block flex justify-center items-center" data-v-7ab3d27c="">
-      <img src="./image/icon/ico_ops_payment.webp" alt="아이콘" data-v-7ab3d27c="">
-    </div>
-  </div>
-
-  <div class="product-spec-title text-center" data-v-7ab3d27c="">
-    결제 · 입출금 관리
-  </div>
-
-  <div class="product-spec-list" data-v-7ab3d27c="">
-    <ul data-v-7ab3d27c="">
-      <li data-v-18de9ca2="">카드 · 현금 · 포인트 결제</li>
-      <li data-v-18de9ca2="">다양한 PG 결제 연동</li>
-      <li data-v-18de9ca2="">결제 · 취소 · 환불 관리</li>
-      <li data-v-18de9ca2="">입금 · 출금 · 미수금 관리</li>
-    </ul>
-  </div>
-</div>
-
-            <div class="product-spec" data-v-18de9ca2="" data-v-7ab3d27c="">
-  <div class="product-spec-icon-area text-center flex justify-center" data-v-7ab3d27c="">
-    <div class="product-spec-icon inline-block flex justify-center items-center" data-v-7ab3d27c="">
-      <img src="./image/icon/ico_ops_system.webp"
-     alt="아이콘"
-     data-v-7ab3d27c="">
-    </div>
-  </div>
-
-  <div class="product-spec-title text-center" data-v-7ab3d27c="">
-    운영 · 시스템 연동
-  </div>
-
-  <div class="product-spec-list" data-v-7ab3d27c="">
-    <ul data-v-7ab3d27c="">
-      <li data-v-18de9ca2="">사용자 계정 · 권한 관리</li>
-      <li data-v-18de9ca2="">알림톡 · 이메일 메시지 관리</li>
-      <li data-v-18de9ca2="">외부 시스템 · API 연동</li>
-      <li data-v-18de9ca2="">ERP · 회계 시스템 연동</li>
-      <li data-v-18de9ca2="">업무 자동화 · AI 연계</li>
+      <li data-v-18de9ca2="">User Accounts &amp; Permissions</li>
+      <li data-v-18de9ca2="">Kakao &amp; Email Notifications</li>
+      <li data-v-18de9ca2="">External Systems &amp; APIs</li>
+      <li data-v-18de9ca2="">ERP &amp; Accounting Integration</li>
+      <li data-v-18de9ca2="">Automation &amp; AI Integration</li>
     </ul>
   </div>
 </div>

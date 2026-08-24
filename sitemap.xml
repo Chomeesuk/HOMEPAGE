@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Korean -->
+  <url>
+    <loc>https://www.sharevaluecorp.com/</loc>
+  </url>
+
+  <url>
+    <loc>https://www.sharevaluecorp.com/engine</loc>
+  </url>
+
+  <url>
+    <loc>https://www.sharevaluecorp.com/back-office</loc>
+  </url>
+
+  <url>
+    <loc>https://www.sharevaluecorp.com/support</loc>
+  </url>
+
+  <!-- English -->
+  <url>
+    <loc>https://www.sharevaluecorp.com/en/</loc>
+  </url>
+
+  <url>
+    <loc>https://www.sharevaluecorp.com/en/engine</loc>
+  </url>
+
+  <url>
+    <loc>https://www.sharevaluecorp.com/en/back-office</loc>
+  </url>
+
+  <url>
+    <loc>https://www.sharevaluecorp.com/en/support</loc>
+  </url>
+
+</urlset>
